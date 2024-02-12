@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'midudev-app';
+
+
+  changeTitle(){
+    console.log('hola');
+    this.title = 'changed';
+  }
 }
